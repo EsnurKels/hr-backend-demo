@@ -87,8 +87,14 @@ app.post("/candidates", async (req, res) => {
   }
 });
 
+/* Canlı Host*/
+const PORT = process.env.PORT || 10000;
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
+
+/*
+Localhost
 app.listen(3000, () => {
     console.log("Sunucu 3000 portunda çalışıyor...");
-    
 })
+*/
