@@ -1,5 +1,7 @@
 node_modules/
 
+prisma/dev.db
+
 uploads/
 
 dist/
